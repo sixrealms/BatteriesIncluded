@@ -22,4 +22,7 @@ class Bunch(object):
 bunch = Bunch(a=1, b=[10, 11])
 bunch.c = 100
 
+new_bunch = Bunch()
+print(new_bunch)
+
 print(bunch.items())
